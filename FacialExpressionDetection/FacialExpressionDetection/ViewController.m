@@ -81,7 +81,7 @@
             NSString *engagementString = [NSString stringWithFormat:@"%.1f", engagement];
             NSString *valenceString = [NSString stringWithFormat:@"%.1f", valence];
             NSString *attentionString = [NSString stringWithFormat:@"%.1f", attention];
-            NSString *emotionString = [NSString stringWithFormat:@"%@, %@, %@, %@, %@, %@, %@, %@, %@, %@, %@, \n", timeStampObj, angerString, contemptString, disgustString, fearString, joyString, sadString, surpriseString, engagementString, valenceString, attentionString];
+            NSString *emotionString = [NSString stringWithFormat:@"%@, %@, %@, %@, %@, %@, %@, %@, %@, %@, %@ \n", timeStampObj, angerString, contemptString, disgustString, fearString, joyString, sadString, surpriseString, engagementString, valenceString, attentionString];
             
             NSLog(@"%@", emotionString);
             
